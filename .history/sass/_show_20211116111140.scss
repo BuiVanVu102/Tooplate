@@ -1,0 +1,23 @@
+.show {
+	margin-bottom: 80px;
+	&__container {
+		display: block;
+	}
+	&__header {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		margin-bottom: 40px;
+
+	}
+}
+
+.menu {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	gap: 0 40px;
+	&__item {
+		color: #38CCCC;
+	}
+}

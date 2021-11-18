@@ -1,0 +1,64 @@
+.about {
+	margin-top: 0px;
+	&__container {
+		display: flex;
+		flex: 1 1;
+		flex-grow: 1;
+		flex-shrink: 1;
+		flex-basis: 0%;
+	
+
+		padding: 50px 50px;
+		margin-bottom: 80px;
+
+		min-height: 482px;
+		max-width: 940px;
+		background-color: #38cccc;
+		color: white;
+
+		border-radius: 15px;
+	}
+	&__heading {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	
+
+		width: 420px;
+		height:382px;
+
+	}
+	&__name {
+		margin:  22px 0;
+		font-size: 1.5em;
+		font-weight: bold;
+	}
+	&__decs {
+		display: block;
+	}
+	&__typography1 {
+	
+		display: block;
+		margin: 18px 0 40px;
+		font: 18px;
+	
+	}
+	&__typography2 {
+		
+		display: block;
+		margin: 18px 0 0;
+		font: 18px;
+	}
+}
+.fa-user:before {
+	content: "\f0c0";
+}
+
+@media screen and (max-width: 767px) {
+	.about {
+		padding: 50px;
+	
+	
+	}
+}

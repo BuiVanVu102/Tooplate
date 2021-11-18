@@ -1,0 +1,22 @@
+.first {
+	
+	&__container{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		border-radius: 15px;
+		max-width: 940px;
+		height: 470px;
+		background-color: #f96699;
+		color: white;
+
+		padding-bottom: 50px;
+	}
+	&__name {
+		margin: 22px 0;
+	}
+}
+.fa-hear:before {
+	content: "\f004";
+}

@@ -1,0 +1,10 @@
+.about {
+	&__container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		height: 382px;
+		max-width: 840px;
+	}
+}

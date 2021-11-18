@@ -1,0 +1,10 @@
+.first {
+	padding-bottom: 50px;
+	&__container{
+		min-height: 470px;
+		min-width: 940px;
+		background-color: #f96699;
+		display: flex;
+
+	}
+}

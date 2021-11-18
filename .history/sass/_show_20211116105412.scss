@@ -1,0 +1,9 @@
+.show {
+	margin-bottom: 80px;
+	&__container {
+	}
+	&__header {
+		display: flex;
+		justify-content: flex-end;
+	}
+}

@@ -1,0 +1,26 @@
+.show {
+	margin-bottom: 80px;
+	&__container {
+		display: block;
+	}
+	&__header {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		margin-bottom: 40px;
+		color: #38CCCC;
+	}
+}
+
+.menu {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	gap: 0 40px;
+
+	
+	&__item a {
+		color: inherit;
+		font-size: 18px;
+	}
+}

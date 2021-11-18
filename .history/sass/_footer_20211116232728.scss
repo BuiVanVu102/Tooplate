@@ -1,0 +1,13 @@
+.footer {
+	margin-bottom: 60px;
+	&__container {
+		display: block;
+		color: #999999;
+		text-align: center;
+	}
+	&__link {
+		color:#999999;
+		transition: all 0.3s ease;
+	}
+
+}

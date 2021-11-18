@@ -1,0 +1,32 @@
+.form {
+	margin-bottom: 50px;
+	&__container {
+		display: flex;
+		justify-content: space-between;
+		align-self: center;
+
+		max-width: 940px;
+		height: 438px;
+
+		color: white;
+		background-color: #99CCCC;
+
+		padding: 50px 20px;
+
+		border-radius: 15px;
+	}
+	&__submit  input{
+		display: block;
+		font-family: $font;
+		font-size: 1rem;
+		background: transparent;
+		color: white;
+		border: 0;
+		border-bottom: 1px solid white;
+		padding: 15px 0;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		width: 100%;
+	}
+	&__submit texterae
+}

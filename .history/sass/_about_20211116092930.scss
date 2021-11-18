@@ -1,0 +1,13 @@
+.about {
+	&__container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		padding: 50px 50px;
+
+		height: 100%;
+		max-width: 100%;
+		background-color: #38cccc;
+	}
+}

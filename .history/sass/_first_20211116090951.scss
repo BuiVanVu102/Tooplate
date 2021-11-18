@@ -1,0 +1,16 @@
+.first {
+	padding-bottom: 50px;
+	&__container{
+		height: 470px;
+		max-width: 940px;
+		background-color: #f96699;
+		display: flex;
+		border-radius: 15px;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
+.fa-hear:before {
+	content: "\f004";
+}

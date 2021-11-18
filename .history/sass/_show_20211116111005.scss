@@ -1,0 +1,22 @@
+.show {
+	margin-bottom: 80px;
+	&__container {
+		display: block;
+	}
+	&__header {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		
+	}
+}
+
+.menu {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	gap: 40px;
+	&__item {
+		color: inherit;
+	}
+}

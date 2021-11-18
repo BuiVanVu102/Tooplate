@@ -1,0 +1,10 @@
+.form {
+	margin-bottom: 50px;
+	&__container {
+		display: flex;
+		justify-content: space-between;
+		align-self: center;
+
+		padding: 50px 20px;
+	}
+}

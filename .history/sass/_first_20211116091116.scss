@@ -1,0 +1,16 @@
+.first {
+	padding-bottom: 50px;
+	&__container{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		border-radius: 15px;
+		max-width: 940px;
+		height: 470px;
+		background-color: #f96699;
+	}
+}
+.fa-hear:before {
+	content: "\f004";
+}

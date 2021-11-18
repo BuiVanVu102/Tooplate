@@ -1,0 +1,12 @@
+.show {
+	margin-bottom: 80px;
+	&__container {
+		display: flex;
+		flex-direction: column;
+	}
+	&__header {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
+}
